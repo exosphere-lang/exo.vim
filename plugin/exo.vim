@@ -8,6 +8,6 @@ highlight! Exotype guifg=Yellow ctermfg=Yellow
 syntax match Constant "\v\w"
 syntax keyword Exotype S3 ECSCluster ApiGatewayAccount ApiGatewayApiKey
 syntax keyword Exotype ApiGatewayClientCertificate ApiGatewayRestApi ApiGatewayUsagePlan ApiGatewayApiKey
-syntax keyword Exotype AppStreamStack AppSyncApiKey ApiGatewayUsagePlan ApiGatewayApiKey
+syntax keyword Exotype AppStreamStack AppSyncApiKey
 
 let b:current_syntax = "exo"
